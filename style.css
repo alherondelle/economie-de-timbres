@@ -19,7 +19,23 @@ a[x-apple-data-detectors] {
 }
 
 p{
-    line-height:inherit
+    line-height:inherit;
+    color:#000;
+}
+
+.subtitle {
+    font-weight: bold;
+    margin-left:30px;
+    margin-top:10px;
+    font-size:26px;
+    font-family:Goudy Bookletter 1911,Helvetica Neue,Helvetica,sans-serif;
+    line-height:120%;
+    text-align:center;
+    direction:ltr;
+    font-weight:400;
+    margin-top:0;
+    margin-bottom:0;
+    letter-spacing: 1px;
 }
 
 .desktop_hide,.desktop_hide table {
@@ -97,4 +113,23 @@ p{
         border-left:0
     }
 }
-    
+.base-column {
+    mso-table-lspace:0;
+    mso-table-rspace:0;
+    font-weight:400;
+    text-align:left;
+    vertical-align:top
+} 
+
+table {
+    mso-table-lspace:0;
+    mso-table-rspace:0;
+}
+
+.txtTinyMce-wrapper {
+    font-size:12px;
+    font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;
+    mso-line-height-alt:18px;
+    color:#2b2d49;
+    line-height:1.5
+}
